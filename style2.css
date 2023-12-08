@@ -1,0 +1,96 @@
+.nav-link {
+    letter-spacing: 1px; /* Ajusta el valor según la cantidad de espacio que desees */
+    color: aliceblue !important;
+
+}   
+
+.nav-item {
+
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+  }
+
+
+  .logo{
+
+    font-weight: 600 !important;
+
+    font-size: 35.2px !important;
+    color: #89ba16 !important;
+
+}
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover; /* O puedes usar 'contain' según tus preferencias */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+a {
+    transition: all 0.3s ease;
+}
+
+.texto{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.text{
+    font-weight: 400 !important;
+}
+
+.weight-500 {
+    font-weight: 500;
+}
+
+.btn {
+    position: relative;
+    padding: 13.5px 36px;
+    font-weight: 700;
+    border-radius: 40px !important;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.banner-image{
+background-image:url(kf.png);
+background-repeat:no-repeat;
+background-position:right;
+background-size:contain;
+margin-top: 1px;
+height: 115vh; /* Ajusta la altura según tus necesidades */
+
+}
+.social-icons a{
+margin-right:15px;
+color:#999;    
+}
+.social-icons a:hover{
+color:#333;    
+}
+@media(max-width:768px){    
+    .banner-image{
+    background-image:  url(kf.png);
+    background-repeat:no-repeat;
+background-position:right;
+background-size:contain;    
+    }  
+}
+
+.btn-primary{
+    background-color: rgb(0, 19, 89) !important;
+}
+
+
+.nom{
+    font-weight: 600 !important;
+}
+
+
+
+
+
